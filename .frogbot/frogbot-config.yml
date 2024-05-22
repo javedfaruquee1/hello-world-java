@@ -1,6 +1,6 @@
 - params:
     git:
-      repoName: javedfaruquee1/hello-world-java
+      repoName: hello-world-java
       gitProvider: github
       token: ${{ secrets.GITHUB_TOKEN }}
       branches:
