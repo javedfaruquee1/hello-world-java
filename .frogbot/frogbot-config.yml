@@ -1,6 +1,6 @@
 - params:
     git:
-      repoName: frogbot
+      repoName: hello-world-java
       branches:
         - dev
     scan:
