@@ -1,8 +1,10 @@
 - params:
     git:
-      repoName: hello-world-java
+      repoName: javedfaruquee1/hello-world-java
+      gitProvider: github
+      #token: ${{ secrets.GITHUB_TOKEN }}
       branches:
-        - dev
+        - master
     scan:
       emailReceivers:
         - javed.faruquee@hexagon.com
