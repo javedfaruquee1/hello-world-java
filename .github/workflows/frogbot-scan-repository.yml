@@ -41,6 +41,10 @@ jobs:
           JF_GIT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           #JF_GIT_TOKEN: ${{ secrets.JF_GIT_TOKEN }}
           
+          # [Optional, if not using GITHUB_TOKEN]
+          JF_GIT_USERNAME: ${{ secrets.JF_USER }}
+          JF_GIT_PASSWORD: ${{ secrets.JF_PASSWORD }}
+          
           # [Mandatory]
           # The name of the branch on which Frogbot will perform the scan
           JF_GIT_BASE_BRANCH: ${{ matrix.branch }}
