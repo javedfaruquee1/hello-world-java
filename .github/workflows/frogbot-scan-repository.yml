@@ -8,9 +8,11 @@ permissions:
   contents: write
   pull-requests: write
   security-events: write
+  id-token: write
 jobs:
   scan-repository:
-    runs-on: ubuntu-latest
+    #runs-on: ubuntu-latest
+    runs-on: windows-self
     name: Scan Repository (${{ matrix.branch }} branch)
     strategy:
       matrix:
