@@ -10,6 +10,4 @@
         - javed.faruquee@hexagon.com
       projects:
         - workingDirs:
-            - action
-        - workingDirs:
             - .
