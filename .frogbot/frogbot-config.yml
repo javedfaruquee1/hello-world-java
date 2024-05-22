@@ -1,0 +1,13 @@
+- params:
+    git:
+      repoName: frogbot
+      branches:
+        - dev
+    scan:
+      emailReceivers:
+        - javed.faruquee@hexagon.com
+      projects:
+        - workingDirs:
+            - action
+        - workingDirs:
+            - .
