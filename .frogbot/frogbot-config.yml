@@ -2,7 +2,8 @@
     git:
       repoName: javedfaruquee1/hello-world-java
       gitProvider: github
-      #token: ${{ secrets.GITHUB_TOKEN }}
+      GITHUB_USERNAME: ${{ secrets.GIT_USERNAME }}
+      token: ${{ secrets.GITHUB_TOKEN }}
       branches:
         - master
     scan:
