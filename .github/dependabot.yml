@@ -1,0 +1,25 @@
+# To get started with Dependabot version updates, you'll need to specify which
+# package ecosystems to update and where the package manifests are located.
+# Please see the documentation for all configuration options:
+# https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
+
+version: 2
+updates:
+  - package-ecosystem: "pip" # See documentation for possible values
+    directory: "/" # Location of package manifests
+    schedule:
+      interval: "weekly"
+      
+  # Configuration for npm (JavaScript)
+  - package-ecosystem: "npm"
+    directory: "/path/to/npm/project" # Adjust the path to where your package.json and package-lock.json are
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+
+  # Configuration for Maven (Java)
+  - package-ecosystem: "maven"
+    directory: "/path/to/maven/project" # Adjust the path to where your pom.xml is
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
