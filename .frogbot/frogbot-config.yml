@@ -7,7 +7,7 @@
         - master
     scan:
       emailReceivers:
-        - javed.faruquee@hexagon.com
+        - javed.faruquee@hotmail.com
       projects:
         - workingDirs:
             - .
