@@ -3,7 +3,7 @@
     "config:base"
   ],
   "platform": "github",
-  "autodiscover": true,
+  "autodiscover": false,
   "baseBranches": ["master"],
   "repositories": [
     "javedfaruquee1/hello-world-java"
