@@ -11,6 +11,8 @@ name: 'Renovate Bot'
 on:
   pull_request:
     branches: [ "master" ]
+  push:
+    branches: [ "master" ]    
 
 # If using a dependency submission action in this workflow this permission will need to be set to:
 #
