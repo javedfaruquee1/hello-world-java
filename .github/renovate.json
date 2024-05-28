@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "platform": "github",
+  "autodiscover": false,
+  "baseBranches": ["master"],
+  "repositories": [
+    "javedfaruquee1/hello-world-java"
+  ],  
+  "packageRules": [
+    {
+      "matchPackageNames": ["*"],
+      "enabled": true
+    }
+  ]
+}
