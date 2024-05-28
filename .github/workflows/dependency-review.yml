@@ -37,7 +37,8 @@ jobs:
           #renovate-image: myproxyhub.domain.com/renovate/renovate
           renovate-version: 37.356.1
           token: ${{ secrets.RENOVATE_TOKEN }}          
-        #env:
+        env:
+          LOG_LEVEL: debug
         #  RENOVATE_ENDPOINT: "https://git.your-company.com/api/v3"
 #  dependency-review:
 #    runs-on: ubuntu-latest
